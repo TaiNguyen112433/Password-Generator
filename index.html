@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./assests/style.css" />
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body"> 
+          <textarea
+            readonly id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+          <div class="length-slider" data-min="8" data-max="128">
+          <div class="length-title" data-lenth="0">Length:</div>
+            <input id="slider" type="range" min="8" max="128" value="25"/>
+          </div>
+         </div>
+
+          <div class="pw-prefernce">
+            <span class="pw-title">Password Preference</span>
+            <div class="pw-rules">
+            <!-- Uppercase -->
+            <input id="uppercase" type="checkbox"></input>
+              <label for="uppercase">Uppercase?</label>
+            <!-- Lowercase -->
+            <input id="lowercase" type="checkbox"></input>
+              <label for="lowercase">Lowercase?</label>
+            <!-- Numbers -->
+            <input id="numbers" type="checkbox"></input>
+              <label for="numbers">Numbers?</label>
+            <!-- Symbols -->
+            <input id="symbols" type="checkbox"></input>
+              <label for="symbols">Symbols?</label>
+            </div>
+        </div>
+
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="./assests/script.js"></script>
+  </body>
+</html>
