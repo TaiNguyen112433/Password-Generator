@@ -6,3 +6,7 @@ This was homework was very difficult I had trouble trying to get a password to d
 
 ![Screenshot](https://github.com/TaiNguyen112433/Password-Generator/blob/main/assests/image/h1.PNG)
 ![Screenshot](https://github.com/TaiNguyen112433/Password-Generator/blob/main/assests/image/h2.PNG)
+
+## Links
+- Github: https://github.com/TaiNguyen112433/Password-Generator
+- Deployed Website: https://tainguyen112433.github.io/Password-Generator/
